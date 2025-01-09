@@ -1,7 +1,4 @@
-# convite_ciaba
-Um exercício de HTML e CSS
-
-# Convite CIABA
+# Convite CIABA (Um exercício de HTML e CSS)
 
 Este projeto é uma página de convite para um evento do Centro de Instrução Almirante Braz de Aguiar (CIABA).
 
