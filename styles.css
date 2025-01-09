@@ -1,0 +1,166 @@
+/* Reset básico */
+body, p, a, header, footer, div, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body.corpo {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(180deg, #0459A2, #0072C6);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.imagem_titulo {
+    width: 100px;
+    height: auto;
+}
+
+.texto_titulo p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.texto_titulo p:first-child {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Banner "CONVITE" */
+.banner_convite {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #F8CB00;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    color: #0459A2;
+}
+
+/* Imagem do convite */
+.imagem_convite {
+    width: 80%;
+    max-width: 700px;
+    height: auto;
+    border: 5px solid #F8CB00;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Rodapé e botão de confirmação */
+footer {
+    margin-top: 20px;
+}
+
+.botao_confirmar {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #003B70;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease;
+}
+
+.botao_confirmar:hover {
+    background-color: #00509E;
+}
+
+
+
+
+/* :root {
+    --cor-fonte-primaria: #FFFFFF;
+    --cor-fonte-secundaria: #C0C0C0;
+    --cor-botao: linear-gradient(90deg , #040E40 0%, #0A24A6 100%);
+    --cor-de-fundo: linear-gradient(90deg , #174A6D 0%, #2D8FD3 100%);
+    --cor-banner-convite: linear-gradient(90deg, #675300 0%, #CDA600 100%);
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--cor-de-fundo);
+   
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.imagem_titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.texto_titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--cor-fonte-primaria);
+    gap: 5px;
+}
+
+.banner_convite{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem;
+    background: var(--cor-banner-convite);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--cor-fonte-primaria);
+    margin-top: 28px;
+}
+
+.imagem_convite{
+    width: 50%;
+    margin: 2rem;
+    margin-bottom: 4rem;
+} 
+
+.botao_confirmar{
+    padding: 1rem;
+    background: var(--cor-botao);
+    border-radius: 25px;
+    color: var(--cor-fonte-primaria);
+    font-family: var(--fonte-principal);
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-decoration: none;
+} */
